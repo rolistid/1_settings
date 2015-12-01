@@ -7,13 +7,12 @@
 !!! Redirect: https://github.com/rolistid/1_settings/general/filters.txt
 !!! Rules: https://adblockplus.org/filters
 !!! Begin or end: |banner or .gif|
-!!! Domain (http[s]://[www.]): ||
+!!! Domain (http[s]://[www.] instead of just http://): ||
 !!! Subdomains: sub.domain,another.domain,~skip.domain
 !!! Separators: ^[/:?=&]banner.gif^
 !!! Rule: ##tag, ##*.class, ##*#id, #@#exception_id
 !!! Attributes: ##div[title*="containing"][title^="start"][title$="end"]
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-||example.com##a[href="http://www.iana.org/domains/example"]
-!
-||marosvasarhelyi.info##a[href="http://centrulvitalis.com/hu/"]
-||marosvasarhelyi.info##a[href="http://marosvasarhelyi.info/hasznos/beteg-vagy-eleged-van-a-gyogyszerekbol-probald-ki-ezt-a-modszert"]
+example.com##a[href="http://www.iana.org/domains/example"]
+marosvasarhelyi.info##a[href="http://centrulvitalis.com/hu/"]
+marosvasarhelyi.info##a[href="http://marosvasarhelyi.info/hasznos/beteg-vagy-eleged-van-a-gyogyszerekbol-probald-ki-ezt-a-modszert"]
